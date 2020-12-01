@@ -19,7 +19,7 @@ body{
   position: relative;
   overflow: hidden;
   height: 40px;
-  margin: 30px 0;
+  margin: 10px 0;
   border-bottom: black;
 }
 .MainPage_Menu ul {
@@ -42,7 +42,7 @@ body{
   color: rgb(2, 0, 0);
   display: block;
   text-decoration: none;
-  padding: 0 15px;
+  padding: 0 10px;
   line-height: 40px;
   transition: .2s linear;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ body{
 .MainPage_Menu ul li a:hover {
   border-radius: 4px;
   background-color: rgb(246, 6, 6);
-  color: #868688;
+  color: #f8f8ff;
 }
 
 .MainPage_header {
@@ -67,3 +67,49 @@ body{
   font-size: 52px ;
   color: rgb(2, 0, 0);
 }
+.topics{
+  position: relative;
+  overflow: hidden;
+  height:470px;
+  margin: 30px 0;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align-last: right;
+}
+.topics ul {
+  list-style: none;  
+}
+.topics ul li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.topic1{
+  background: rgb(230, 155, 17);
+}
+.topic2{
+  background: rgb(204, 13, 13);
+}
+.topic3{
+  background: rgb(7, 131, 180);
+}
+.topics ul li a {
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 148px;
+  transition: .2s linear;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 0%; 
+}
+.topics ul li a:hover {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: #f8f8ff;
+}
+
