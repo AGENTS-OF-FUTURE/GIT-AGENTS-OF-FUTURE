@@ -155,17 +155,17 @@ body{
 }
 .topic1 a:hover{
   border-radius: 10px;
-  background-color: rgb(139, 137, 4);
+  background-color: rgb(165, 143, 19);
   color: #f8f8ff;
 }
 .topic2 a:hover{
   border-radius: 10px;
-  background-color: rgb(54, 124, 71);
+  background-color:  rgba(90, 14, 65, 0.363)  /* rgb(54, 124, 71)*/;
   color: #f8f8ff;
 }
 .topic3 a:hover{
   border-radius: 10px;
-  background-color: rgb(74, 49, 112);
+  background-color: rgb(6, 75, 102);
   color: #f8f8ff;
 }
 /*MainPage_header*/
