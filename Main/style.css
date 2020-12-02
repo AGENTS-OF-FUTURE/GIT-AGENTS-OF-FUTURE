@@ -112,4 +112,8 @@ body{
   background-color: rgb(0, 0, 0);
   color: #f8f8ff;
 }
+.container{
+  max-width: 90%;
+  margin: auto;
+}
 
