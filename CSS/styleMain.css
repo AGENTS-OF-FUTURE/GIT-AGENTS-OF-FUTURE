@@ -115,7 +115,7 @@ body{
   background: rgb(230, 155, 17);
 }
 .topic2{
-  background: rgb(250, 140, 140);
+  background: rgba(243, 39, 175, 0.363);
 }
 .topic3{
   background: rgb(7, 131, 180);
@@ -160,7 +160,7 @@ body{
 }
 .topic2 a:hover{
   border-radius: 10px;
-  background-color: rgb(60, 128, 65);
+  background-color: rgb(54, 124, 71);
   color: #f8f8ff;
 }
 .topic3 a:hover{
