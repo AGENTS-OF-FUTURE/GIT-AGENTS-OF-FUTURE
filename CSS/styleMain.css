@@ -118,7 +118,7 @@ body{
   background: rgba(243, 39, 175, 0.363);
 }
 .topic3{
-  background: rgb(7, 131, 180);
+  background: rgb(9, 161, 221);
 }
 .Ikon1 {
   color: #000000;
@@ -155,7 +155,7 @@ body{
 }
 .topic1 a:hover{
   border-radius: 10px;
-  background-color: rgb(165, 143, 19);
+  background-color: rgb(160, 108, 13);
   color: #f8f8ff;
 }
 .topic2 a:hover{
@@ -165,7 +165,7 @@ body{
 }
 .topic3 a:hover{
   border-radius: 10px;
-  background-color: rgb(6, 75, 102);
+  background-color: rgb(12, 118, 160);
   color: #f8f8ff;
 }
 /*MainPage_header*/
