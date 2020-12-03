@@ -1,0 +1,77 @@
+.container{
+  max-width: 90%;
+  margin: auto;
+}
+
+body{
+  background-color:#f8f8ff;
+  margin: 0;
+  color: rgb(255, 255, 255); 
+  font-family: 'Roboto Slab', serif;
+}
+
+*,*::after,*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*CriteriaPage_Menu*/
+.CriteriaPage_Menu {
+  background:#f8f8ff;
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  margin: 10px 0;
+  border-bottom: black;
+}
+.CriteriaPage_Menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+  height: 40px;
+}
+.CriteriaPage_Menu ul li {
+  position: relative;
+  left: -53%;
+  float: left;
+  margin: 0 10px;
+  height: 40px;
+}
+.MenuThisIkon{
+  background: rgb(246, 6, 6); 
+  border-radius: 4px;
+}
+.MenuThisIkonText{
+  color: #f8f8ff;
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 40px;
+  transition: .2s linear;
+  text-transform: uppercase;
+  font-weight: bold;  
+}
+.MenuOtherIkonText{
+  color: rgb(2, 0, 0);
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 40px;
+  transition: .2s linear;
+  text-transform: uppercase;
+  font-weight: bold;  
+}
+.MenuOtherIkon a:hover {
+  border-radius: 4px;
+  background-color: rgb(246, 6, 6);
+  color: #f8f8ff;
+}
+/*CriteriaPage_Menu*/
