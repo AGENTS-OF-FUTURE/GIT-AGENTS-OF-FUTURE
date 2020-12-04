@@ -94,3 +94,10 @@ body{
 }
 /*ComletedProjectsPage_header*/
 
+/*ProjectSubjects*/
+.section-title{
+  font-weight: bold;
+  font-size: 25px ;
+  color: rgb(2, 0, 0);
+}
+/*ProjectSubjects*/
