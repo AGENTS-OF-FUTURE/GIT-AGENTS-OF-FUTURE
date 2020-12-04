@@ -1,6 +1,7 @@
 .container{
   max-width: 90%;
   margin: auto;
+  display: table;
 }
 
 body{
@@ -23,24 +24,25 @@ body{
 /*CriteriaPage_Menu*/
 .CompletedProjectsPage_Menu {
   background:#f8f8ff;
-  position: relative;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
-  height: 40px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  height: 60px;
   margin: 10px 0;
-  border-bottom: black;
+  width: 1200px;
+  border: 3px solid rgb(85, 80, 80);
+  border-right: 3px solid rgb(85, 80, 80);
 }
 .CompletedProjectsPage_Menu ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-  position: relative;
-  left: 50%;
+  padding: 0; 
   float: left;
   height: 40px;
 }
 .CompletedProjectsPage_Menu ul li {
-  position: relative;
-  left: -53%;
   float: left;
   margin: 0 10px;
   height: 40px;
@@ -75,3 +77,20 @@ body{
   color: #f8f8ff;
 }
 /*CriteriaPage_Menu*/
+
+
+/*ComletedProjectsPage_header*/
+.ComletedProjectsPage_header {
+  width:100%;
+  height:80px;
+  text-align:center;
+  font-size:24px;
+  padding-top:0px;
+}
+.ComletedProjectsPage_header h3{
+  font-weight: bold;
+  font-size: 52px ;
+  color: rgb(2, 0, 0);
+}
+/*ComletedProjectsPage_header*/
+
