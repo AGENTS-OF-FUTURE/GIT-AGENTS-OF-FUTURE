@@ -102,7 +102,7 @@ body{
   color: rgb(0, 0, 0);
 }
 .ProjectsSubjects{
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .ProjectsSubjects-block{
   display: flex;
@@ -122,5 +122,5 @@ body{
   font-style: 24px;
   line-height: 28px;
   margin: 0;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
