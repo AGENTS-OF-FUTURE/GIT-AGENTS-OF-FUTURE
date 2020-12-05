@@ -101,3 +101,26 @@ body{
   color: rgb(2, 0, 0);
 }
 /*ProjectSubjects*/
+.ProjectsSubjects{
+  background-color: #020101;
+}
+.ProjectsSubjects-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Projects-Subject{
+  flex-basis: 30%;
+  margin-bottom: 63px;
+}
+.Subject-image{
+  display: block;
+  margin-bottom: 22px;
+}
+.Subject-title{
+  font-weight: bold;
+  font-style: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 16px;
+}
