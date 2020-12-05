@@ -2,6 +2,7 @@
   max-width: 90%;
   margin: auto;
   display: table;
+  color: black
 }
 
 body{
@@ -98,11 +99,10 @@ body{
 .section-title{
   font-weight: bold;
   font-size: 25px ;
-  color: rgb(2, 0, 0);
+  color: rgb(0, 0, 0);
 }
-/*ProjectSubjects*/
 .ProjectsSubjects{
-  background-color: #020101;
+  background-color: #ffffff;
 }
 .ProjectsSubjects-block{
   display: flex;
@@ -122,5 +122,5 @@ body{
   font-style: 24px;
   line-height: 28px;
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 16px; 
 }
