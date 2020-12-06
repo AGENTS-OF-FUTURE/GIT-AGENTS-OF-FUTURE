@@ -119,6 +119,7 @@ body{
   border-radius: 15px;
   margin-left: 12.5px;
   margin-right: 12.5px;
+  text-align: center;
 }
 .Subject-image{
   display: block;
@@ -134,7 +135,17 @@ body{
   line-height: 28px;
   margin: 0;
   margin-bottom: 16px;
-  text-align: center;
+}
+.Subject-Title{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: .2s linear;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 /*ProjectSubjects*/
