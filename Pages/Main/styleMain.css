@@ -93,7 +93,6 @@ body{
   color: rgb(2, 0, 0);
 }
 .topics{
-  position: relative;
   overflow: hidden;
   height:470px;
   margin: 30px 0;

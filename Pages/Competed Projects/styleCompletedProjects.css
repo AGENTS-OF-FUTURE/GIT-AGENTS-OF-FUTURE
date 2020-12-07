@@ -113,7 +113,7 @@ body{
   justify-content: center;
 }
 .Projects-Subject{
-  flex-basis: 30%;
+  flex-basis: 280px;
   margin-bottom: 63px;
   border: 3px solid rgb(131, 126, 126);
   border-radius: 15px;
@@ -123,10 +123,12 @@ body{
 }
 .Subject-image{
   display: block;
+  margin: 0;
   margin-top: 10%;
   margin-bottom: 5px;
-  margin-left: 17%;
-  border-radius: 10px
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
   
 }
 .Subject-title{
@@ -147,5 +149,6 @@ body{
   margin: 0;
   margin-bottom: 16px;
 }
+
 
 /*ProjectSubjects*/
