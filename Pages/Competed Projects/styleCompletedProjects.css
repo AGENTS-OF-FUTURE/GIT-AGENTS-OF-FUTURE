@@ -120,6 +120,8 @@ body{
   margin-left: 12.5px;
   margin-right: 12.5px;
   text-align: center;
+  text-decoration: none;
+  transition: .2s linear;
 }
 .Subject-image{
   display: block;
@@ -132,22 +134,18 @@ body{
   
 }
 .Subject-title{
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
-  margin: 0;
-  margin-bottom: 16px;
-}
-.Subject-Title{
   color: rgb(0, 0, 0);
-  text-decoration: none;
-  transition: .2s linear;
+  text-decoration: none; 
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
   margin: 0;
   margin-bottom: 16px;
+}
+
+.Projects-Subject:hover{
+  background-color: rgb(92, 56, 56)
 }
 
 

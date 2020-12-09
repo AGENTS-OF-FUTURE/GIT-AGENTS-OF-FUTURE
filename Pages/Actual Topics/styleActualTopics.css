@@ -79,3 +79,17 @@ body{
   color: #f8f8ff;
 }
 /*ActualTopicsPage_Menu*/
+
+/*ActualProjects_header*/
+.ActualProjects_header {
+  height:80px;
+  text-align:center;
+  font-size:24px;
+  padding-top:0px;
+}
+.ActualProjects_header h3{
+  font-weight: bold;
+  font-size: 52px ;
+  color: rgb(2, 0, 0);
+}
+/*ActualProjects_header*/
