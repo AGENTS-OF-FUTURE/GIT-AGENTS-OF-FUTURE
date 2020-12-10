@@ -93,3 +93,10 @@ body{
   color: rgb(2, 0, 0);
 }
 /*ActualProjects_header*/
+.List_of_ActualTopics{
+  margin-top:15px;
+  font-size: 24px;
+  padding-top: 10px;
+  color: rgb(2, 0, 0);
+}
+/*List_of_ActualTopics*/
