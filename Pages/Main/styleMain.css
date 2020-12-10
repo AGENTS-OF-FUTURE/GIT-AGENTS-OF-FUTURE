@@ -122,36 +122,36 @@ body{
 }
 .Ikon1 {
   color: #000000;
-  display: block;
   text-decoration: none;
-  padding: 0 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
   line-height: 148px;
   transition: .2s linear;
   font-size: 30px;
   font-weight: bold;
-  margin-right: 0%; 
 }
 .Ikon2 {
   color: #000000;
-  display: block;
   text-decoration: none;
-  padding: 0 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
   line-height: 148px;
   transition: .2s linear;
   font-size: 30px;
   font-weight: bold;
-  margin-right: 0%; 
 }
 .Ikon3 {
   color: #000000;
-  display: block;
   text-decoration: none;
-  padding: 0 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
   line-height: 148px;
   transition: .2s linear;
   font-size: 30px;
-  font-weight: bold;
-  margin-right: 0%; 
+  font-weight: bold; 
 }
 .topic1 a:hover{
   border-radius: 10px;
