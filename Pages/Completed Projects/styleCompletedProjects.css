@@ -147,6 +147,15 @@ body{
 .Projects-Subject:hover{
   background-color: rgb(92, 56, 56)
 }
+
+.ProSub {
+  height: 150px;
+  border: 3px solid rgb(131, 126, 126);
+  border-radius: 15px;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
 /*ProjectSubjects*/
 
 
