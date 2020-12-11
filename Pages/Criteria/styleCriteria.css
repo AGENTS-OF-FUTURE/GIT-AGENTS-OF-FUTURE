@@ -77,6 +77,9 @@ body{
   color: #f8f8ff;
 }
 /*CriteriaPage_Menu*/
+
+
+/*Criteria_header*/
 .Criteria_header{
   height:80px;
   text-align:center;
@@ -84,16 +87,26 @@ body{
   padding-top:0px;
 }
 /*Criteria_header*/
+
+
+/*Criteria_header h3*/
 .Criteria_header h3{
   font-weight: bold;
   font-size: 52px;
   color: rgb(2, 0, 0);
 }
 /*Criteria_header h3*/
+
+/*List_of_Criteria*/
 .List_of_Criteria{
   margin-top:15px;
   font-size: 24px;
   padding-top: 10px;
   color: rgb(2, 0, 0);
+}
+.Criteria_2020-2021{
+  color: rgb(2, 0, 0);
+  text-decoration: none;
+  font-size: 24px;
 }
 /*List_of_Criteria*/
