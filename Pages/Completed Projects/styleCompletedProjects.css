@@ -324,6 +324,10 @@ body{
   border-radius: 15px;
   width: 40.4%;
   text-align: center;
+  transition: .2s linear;
+}
+.sub_item:hover{
+  background-color: rgb(134, 58, 58);
 }
 .sub_item a{
   height: 100%;
@@ -340,4 +344,5 @@ body{
   text-transform: uppercase;
   font-weight: bold;
 }
+
 /*        slider          */
