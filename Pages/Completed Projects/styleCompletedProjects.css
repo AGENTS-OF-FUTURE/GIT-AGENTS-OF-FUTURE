@@ -162,7 +162,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  margin-top: 20%;
+  margin-top: 2%;
 }
 
 /* стили для обёртки, в которой заключены слайды */
@@ -260,15 +260,15 @@ body{
 }
 
 .slider__item_1 {
-  background: linear-gradient(45deg, #ffffff 10%, #ffffff 90%);
+  background: linear-gradient(45deg,  #f8f8ff 10%,  #f8f8ff 90%);
 }
 
 .slider__item_2 {
-  background: linear-gradient(to right,#ffffff 10%, #ffffff 90%);
+  background: linear-gradient(to right #f8f8ff 10%, #f8f8ff 90%);
 }
 
 .slider__item_3 {
-  background: linear-gradient(to right,#ffffff 10%, #ffffff 90%);
+  background: linear-gradient(to right, #f8f8ff 10%,  #f8f8ff 90%);
 }
 
 .slider__item {
@@ -284,7 +284,7 @@ body{
   top: 36px;
   bottom: 36px;
   overflow: hidden;
-  color: #fff;
+  color:  #f8f8ff;
   text-align: center;
   display: flex;
   align-items: center;
