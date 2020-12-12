@@ -335,6 +335,7 @@ body{
 .Subject-img{
   border-radius: 10px;
   height: 90%;
+  width: 100%;
 }
 .Subject-Title{
   color:rgb(0, 0, 0);
