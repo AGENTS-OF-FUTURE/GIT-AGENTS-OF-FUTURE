@@ -1,6 +1,6 @@
 .container{
   color: rgb(2, 0, 0);
-  max-width: 60%;
+  max-width: 0;
   margin: auto;
   display: table;
 }
