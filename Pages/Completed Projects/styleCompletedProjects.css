@@ -335,11 +335,13 @@ body{
 .Subject-img{
   border-radius: 10px;
   height: 90%;
+  margin: 0;
 }
 .Subject-Title{
   color:rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 0;
 }
 
 /*        slider          */
