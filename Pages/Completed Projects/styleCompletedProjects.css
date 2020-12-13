@@ -3,6 +3,7 @@
   max-width: 60%;
   margin: auto;
   display: table;
+  justify-content: center;
 }
 body{
   background-color:#f8f8ff;
