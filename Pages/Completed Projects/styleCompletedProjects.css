@@ -156,6 +156,9 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 0%;
+  margin-right: auto;
+  
 }
 
 /* стили основного контейнера слайдера */
@@ -165,6 +168,8 @@ body{
   max-width: 900px;
   margin-bottom: 100px;
   margin-top: 2%;
+  align-content: center;
+  text-align: center;
 }
 
 /* стили для обёртки, в которой заключены слайды */
