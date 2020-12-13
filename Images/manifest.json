@@ -1,5 +1,13 @@
 {
- "name": "App",
+ "name": "AGENTS OF FUTURE",
+ "short_name": "AGF",
+ "description": "Application OK",
+ "lang": "ru-Ru",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "theme_color": "#000000",
+ "background_color": "#000000",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,5 +45,10 @@
    "type": "image\/png",
    "density": "4.0"
   }
+  {
+    "src": "\/android-icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image\/png"
+   }
  ]
 }
