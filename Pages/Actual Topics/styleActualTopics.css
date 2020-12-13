@@ -1,17 +1,16 @@
+/*Main settings for this page*/
 .container{
   color: rgb(2, 0, 0);
   max-width: 60%;
   margin: auto;
   display: table;
 }
-
 body{
   background-color:#f8f8ff;
   margin: 0;
   color: rgb(255, 255, 255); 
   font-family: 'Roboto Slab', serif;
 }
-
 *,*::after,*::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -21,6 +20,7 @@ body{
   margin: 0;
   padding: 0;
 }
+/*Main settings for this page*/
 
 /*ActualTopicsPage_Menu*/
 .ActualTopicsPage_Menu {

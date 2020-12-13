@@ -1,16 +1,15 @@
+/*Main settings for this page*/
 .container{
   max-width: 0;
   margin: auto;
   display: table;
 }
-
 body{
   background-color:#f8f8ff;
   margin: 0;
   color: rgb(255, 255, 255); 
   font-family: 'Roboto Slab', serif;
 }
-
 *,*::after,*::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,6 +19,7 @@ body{
   margin: 0;
   padding: 0;
 }
+/*Main settings for this page*/
 
 /*MainPage_Menu*/
 .MainPage_Menu {

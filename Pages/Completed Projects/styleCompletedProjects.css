@@ -1,17 +1,15 @@
+/*Main settings for this page*/
 .container{
   max-width: 60%;
   margin: auto;
   display: table;
-  color: black
 }
-
 body{
   background-color:#f8f8ff;
   margin: 0;
   color: rgb(255, 255, 255); 
   font-family: 'Roboto Slab', serif;
 }
-
 *,*::after,*::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -21,6 +19,7 @@ body{
   margin: 0;
   padding: 0;
 }
+/*Main settings for this page*/
 
 /*CriteriaPage_Menu*/
 .CompletedProjectsPage_Menu {
@@ -147,8 +146,6 @@ body{
 .Projects-Subject:hover{
   background-color: rgb(92, 56, 56)
 }
-
-
 /*ProjectSubjects*/
 
 
@@ -162,7 +159,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  margin-top: 20%;
+  margin-top: 2%;
 }
 
 /* стили для обёртки, в которой заключены слайды */
@@ -260,15 +257,15 @@ body{
 }
 
 .slider__item_1 {
-  background: linear-gradient(45deg, #ffffff 10%, #ffffff 90%);
+  background: linear-gradient(45deg,  #f8f8ff 10%,  #f8f8ff 90%);
 }
 
 .slider__item_2 {
-  background: linear-gradient(to right,#ffffff 10%, #ffffff 90%);
+  background: linear-gradient(to right #f8f8ff 10%, #f8f8ff 90%);
 }
 
 .slider__item_3 {
-  background: linear-gradient(to right,#ffffff 10%, #ffffff 90%);
+  background: linear-gradient(to right, #f8f8ff 10%,  #f8f8ff 90%);
 }
 
 .slider__item {
@@ -284,7 +281,7 @@ body{
   top: 36px;
   bottom: 36px;
   overflow: hidden;
-  color: #fff;
+  color:  #f8f8ff;
   text-align: center;
   display: flex;
   align-items: center;
@@ -338,6 +335,7 @@ body{
 .Subject-img{
   border-radius: 10px;
   height: 90%;
+  width: 100%;
 }
 .Subject-Title{
   color:rgb(0, 0, 0);

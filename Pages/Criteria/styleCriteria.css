@@ -1,16 +1,15 @@
+/*Main settings for this page*/
 .container{
   max-width: 60%;
   margin: auto;
   display: table;
 }
-
 body{
   background-color:#f8f8ff;
   margin: 0;
   color: rgb(255, 255, 255); 
   font-family: 'Roboto Slab', serif;
 }
-
 *,*::after,*::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,6 +19,7 @@ body{
   margin: 0;
   padding: 0;
 }
+/*Main settings for this page*/
 
 /*CriteriaPage_Menu*/
 .CriteriaPage_Menu {
@@ -86,16 +86,13 @@ body{
   font-size:24px;
   padding-top:0px;
 }
-/*Criteria_header*/
-
-
-/*Criteria_header h3*/
 .Criteria_header h3{
   font-weight: bold;
   font-size: 52px;
   color: rgb(2, 0, 0);
 }
-/*Criteria_header h3*/
+/*Criteria_header*/
+
 
 /*List_of_Criteria*/
 .List_of_Criteria{
@@ -105,7 +102,7 @@ body{
   color: rgb(2, 0, 0);
 }
 .Criteria_2020-2021{
-  color: rgb(2, 0, 0);
+  color: rgb(54, 3, 3);
   text-decoration: none;
   font-size: 24px;
 }
