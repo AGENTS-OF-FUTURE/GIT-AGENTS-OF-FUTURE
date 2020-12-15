@@ -80,8 +80,6 @@ body{
 
 
 /*Criteria_header*/
-
-/*Criteriapage_header*/
 .Criteria_header {
   width:100%;
   height:80px;
@@ -128,7 +126,7 @@ body{
   text-align: center;
   justify-content: center;
   display: flex;
-  line-height: 148px;
+  line-height: 90px;
   transition: .2s linear;
   font-size: 30px;
   font-weight: bold;
@@ -139,7 +137,7 @@ body{
   text-align: center;
   justify-content: center;
   display: flex;
-  line-height: 148px;
+  line-height: 90px;
   transition: .2s linear;
   font-size: 30px;
   font-weight: bold;
@@ -150,7 +148,7 @@ body{
   text-align: center;
   justify-content: center;
   display: flex;
-  line-height: 148px;
+  line-height: 90px;
   transition: .2s linear;
   font-size: 30px;
   font-weight: bold; 
@@ -170,4 +168,4 @@ body{
   background-color: rgb(12, 118, 160);
   color: #f8f8ff;
 }
-/*MainPage_header*/
+/*Criteria_header*/
