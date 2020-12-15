@@ -80,7 +80,8 @@ body{
 
 
 /*Criteria_header*/
-/*MainPage_header*/
+
+/*Criteriapage_header*/
 .Criteria_header {
   width:100%;
   height:80px;
@@ -100,7 +101,7 @@ body{
   max-width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  text-align-last: right;
+  text-align-last: centre;
 }
 .topics ul {
   list-style: none;  
