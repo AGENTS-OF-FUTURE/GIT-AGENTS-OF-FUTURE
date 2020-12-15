@@ -274,9 +274,6 @@ body{
   background: linear-gradient(to right #f8f8ff 10%, #f8f8ff 90%);
 }
 
-.slider__item_3 {
-  background: linear-gradient(to right, #f8f8ff 10%,  #f8f8ff 90%);
-}
 
 .slider__item {
   height: 600px;
@@ -334,7 +331,7 @@ body{
   transition: .2s linear;
 }
 .sub_item:hover{
-  background-color: rgb(134, 58, 58);
+  
 }
 .sub_item a{
   height: 100%;
@@ -344,8 +341,9 @@ body{
 }
 .Subject-img{
   border-radius: 10px;
-  
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 .Subject-Title{
   color:rgb(0, 0, 0);
