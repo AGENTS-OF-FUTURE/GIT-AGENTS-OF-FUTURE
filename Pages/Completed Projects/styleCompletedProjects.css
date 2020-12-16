@@ -335,6 +335,7 @@ body{
 }
 .sub_item a{
   height: 100%;
+  width: 100%;
 }
 .ProSub {
   text-decoration: none;
@@ -342,7 +343,8 @@ body{
 .Subject-img{
   border-radius: 10px;
   margin: 0;
-  height: 100%;
+  padding: 0%;
+  height:100%;
   width: 100%;
 }
 .Subject-Title{
