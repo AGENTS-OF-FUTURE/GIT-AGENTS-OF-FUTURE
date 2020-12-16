@@ -325,7 +325,7 @@ body{
 .sub_item{
   height: 100%; 
   border: 3px solid rgb(131, 126, 126);
-  border-radius: 15px;
+  border-radius: 19.5px;
   width: 40.4%;
   text-align: center;
   transition: .2s linear;
