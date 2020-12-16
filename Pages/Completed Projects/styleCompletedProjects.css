@@ -95,68 +95,13 @@ body{
 /*ComletedProjectsPage_header*/
 
 
-/*ProjectSubjects*/
-.section-title{
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px ;
-  color: rgb(0, 0, 0);
-  margin-bottom: 20px;
-}
-.ProjectsSubjects{
-  background-color:  #f8f8ff;
-  margin-bottom: 20px;
-}
-.ProjectsSubjects-block{
-  display: flex;
-  flex-wrap: wrap;
-  height: 850px;
-  justify-content: center;
-}
-.Projects-Subject{
-  flex-basis: 280px;
-  margin-bottom: 63px;
-  border: 3px solid rgb(131, 126, 126);
-  border-radius: 15px;
-  margin-left: 12.5px;
-  margin-right: 12.5px;
-  text-align: center;
-  text-decoration: none;
-  transition: .2s linear;
-}
-.Subject-image{
-  display: block;
-  margin: 0;
-  margin-top: 10%;
-  margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  
-}
-.Subject-title{
-  color: rgb(0, 0, 0);
-  text-decoration: none; 
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
-  margin: 0;
-  margin-bottom: 16px;
-}
-.Projects-Subject:hover{
-  background-color: rgb(92, 56, 56)
-}
-/*ProjectSubjects*/
-
-
 /*        slider          */
 .slider-block {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 0%;
+  margin-left: auto;
   margin-right: auto;
   
 }
@@ -324,11 +269,14 @@ body{
 }
 .sub_item{
   height: 100%; 
-  border: 3px solid rgb(131, 126, 126);
-  border-radius: 19.5px;
-  width: 40.4%;
+  width: 40.5%;
   text-align: center;
   transition: .2s linear;
+}
+.ImageContainer {
+  border: 3px solid rgb(131, 126, 126);
+  border-radius: 20px;
+  height: 100%;
 }
 .sub_item:hover{
   
@@ -341,9 +289,7 @@ body{
   text-decoration: none;
 }
 .Subject-img{
-  border-radius: 10px;
-  margin: 0;
-  padding: 0%;
+  border-radius: 2%;
   height:100%;
   width: 100%;
 }
@@ -360,8 +306,8 @@ body{
 
 /*last_projects*/
 .last_projects {
-  width:60%;
-  height:300px;
+  width:100%;
+  height:500px;
   text-align:center;
   font-size:24px;
   padding-top:0px;
