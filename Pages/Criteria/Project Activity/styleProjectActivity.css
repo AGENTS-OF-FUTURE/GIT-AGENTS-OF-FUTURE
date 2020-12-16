@@ -22,7 +22,7 @@
   }
   /*Main settings for this page*/
   
-  /*ActualTopicsPage_Menu*/
+  /*Project_Activity_Menu*/
   .Project_Activity {
     color: rgb(2, 0, 0);
     background:#f8f8ff;
@@ -78,9 +78,8 @@
     background-color: rgb(246, 6, 6);
     color: #f8f8ff;
   }
-  /*ActualTopicsPage_Menu*/
   
-  /*ActualProjects_header*/
+  /*ProjectActivity_header*/
   .ProjectActivity_header {
     height:80px;
     text-align:center;
@@ -92,8 +91,6 @@
     font-size: 52px;
     color: rgb(2, 0, 0);
   }
-  /*ActualProjects_header*/
-    /*ActualProjects_header*/
     .Criteria_of_ProjectActivity{
       margin-top:15px;
       font-size: 24px;
@@ -101,3 +98,10 @@
       color: rgb(2, 0, 0);
     }
     /*Criteria_of_ProjectActivity*/
+.Project_Activity_link{
+  text-decoration: none;
+  color: black;
+}
+.Project_Activity_link:hover{
+  text-decoration: underline;
+}
