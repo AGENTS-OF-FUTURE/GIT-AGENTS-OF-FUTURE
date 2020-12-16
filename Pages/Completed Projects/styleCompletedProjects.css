@@ -273,17 +273,25 @@ body{
   justify-content: space-evenly;
 }
 .sub_item{
+  background-color: #fff;
   height: 100%; 
   width: 40.5%;
+  text-align: center;
+  transition: .2s linear;
+}
+.sub_item:hover{
+  
+}
+.ImageContainer {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
   text-align: center;
   transition: .2s linear;
   border: 3px solid rgb(131, 126, 126);
   border-radius: 20px;
 }
-.sub_item:hover{
-  
-}
-.sub_item a{
+.sub_item a {
   height: 100%;
   width: 100%;
 }
@@ -291,7 +299,7 @@ body{
   text-decoration: none;
 }
 .Subject-img{
-  margin-top: 5%;
+  margin-top: 2.4%;
   border-radius: 2%;
   height:90%;
   width: 95%;
@@ -335,13 +343,19 @@ body{
   border-radius: 10px;
 }
 .topic1{
-  background: rgb(230, 155, 17);
+  background: #f8f8ff;
+  border: 3px solid rgb(131, 126, 126);
+  transition: .3s linear;
 }
 .topic2{
-  background: rgba(243, 39, 175, 0.363);
+  background: #f8f8ff;
+  border: 3px solid rgb(131, 126, 126);
+  transition: .3s linear;
 }
 .topic3{
-  background: rgb(9, 161, 221);
+  background: #f8f8ff;
+  border: 3px solid rgb(131, 126, 126);
+  transition: .3s linear;
 }
 .Ikon1 {
   color: #000000;
@@ -350,7 +364,6 @@ body{
   justify-content: center;
   display: flex;
   line-height: 90px;
-  transition: .2s linear;
   font-size: 30px;
   font-weight: bold;
 }
@@ -361,7 +374,6 @@ body{
   justify-content: center;
   display: flex;
   line-height: 90px;
-  transition: .2s linear;
   font-size: 30px;
   font-weight: bold;
 }
@@ -372,23 +384,22 @@ body{
   justify-content: center;
   display: flex;
   line-height: 90px;
-  transition: .2s linear;
   font-size: 30px;
   font-weight: bold; 
 }
-.topic1 a:hover{
+.topic1:hover{
   border-radius: 10px;
-  background-color: rgb(214, 129, 18);
+  background-color: rgb(146, 138, 126);
   color: #f8f8ff;
 }
-.topic2 a:hover{
+.topic2:hover{
   border-radius: 10px;
-  background-color:  rgba(90, 14, 65, 0.363)  /* rgb(54, 124, 71)*/;
+  background-color:   rgb(146, 138, 126)  /* rgb(54, 124, 71)*/;
   color: #f8f8ff;
 }
-.topic3 a:hover{
+.topic3:hover{
   border-radius: 10px;
-  background-color: rgb(12, 118, 160);
+  background-color:  rgb(146, 138, 126);
   color: #f8f8ff;
 }
 /*last_projects*/
