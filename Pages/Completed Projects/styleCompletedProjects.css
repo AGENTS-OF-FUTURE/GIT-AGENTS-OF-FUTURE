@@ -259,7 +259,7 @@ body{
 
 
 .first-line{
-  height: 46%;
+  height: 44%;
   display: flex;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -278,6 +278,8 @@ body{
   width: 40.5%;
   text-align: center;
   transition: .2s linear;
+  border: 3px solid rgb(131, 126, 126);
+  border-radius: 20px;
 }
 .sub_item:hover{
   
@@ -285,11 +287,8 @@ body{
 .ImageContainer {
   height: 100%;
   width: 100%;
-  background-color: #fff;
   text-align: center;
   transition: .2s linear;
-  border: 3px solid rgb(131, 126, 126);
-  border-radius: 20px;
 }
 .sub_item a {
   height: 100%;
@@ -299,6 +298,7 @@ body{
   text-decoration: none;
 }
 .Subject-img{
+  margin: 0;
   margin-top: 2.4%;
   border-radius: 2%;
   height:90%;
