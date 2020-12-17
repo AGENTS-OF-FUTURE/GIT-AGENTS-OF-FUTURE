@@ -97,13 +97,12 @@ body{
 
 /*        slider          */
 .slider-block {
-  width: 100%;
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .section-title {
   color: #000;
@@ -325,6 +324,10 @@ body{
   padding-top:0px;
   border: 3px solid rgb(131, 126, 126);
   border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 0;
+  display: block;
 }
 .topics-title {
   color: #000;
