@@ -323,6 +323,8 @@ body{
   text-align:center;
   font-size:24px;
   padding-top:0px;
+  border: 3px solid rgb(131, 126, 126);
+  border-radius: 20px;
 }
 .topics-title {
   color: #000;
@@ -346,7 +348,7 @@ body{
   padding-bottom: 0px;
   width: 100%;
   margin-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .topic1{
   background: #f8f8ff;
