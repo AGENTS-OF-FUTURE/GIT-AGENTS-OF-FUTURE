@@ -265,7 +265,7 @@ body{
   justify-content: space-evenly;
 }
 .second-line{
-  height: 46%;
+  height: 44%;
   display: flex;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -354,17 +354,17 @@ body{
 .topic1{
   background: #f8f8ff;
   border: 3px solid rgb(131, 126, 126);
-  transition: .3s linear;
+  transition: .4s linear;
 }
 .topic2{
   background: #f8f8ff;
   border: 3px solid rgb(131, 126, 126);
-  transition: .3s linear;
+  transition: .4s linear;
 }
 .topic3{
   background: #f8f8ff;
   border: 3px solid rgb(131, 126, 126);
-  transition: .3s linear;
+  transition: .4s linear;
 }
 .Ikon1 {
   color: #000000;
