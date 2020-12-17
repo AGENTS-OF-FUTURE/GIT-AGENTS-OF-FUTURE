@@ -101,9 +101,8 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  align-content: center; 
-  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .section-title {
   color: #000;
@@ -415,15 +414,6 @@ body{
 .topic3:hover{
   border-radius: 5px;
   background-color:  rgb(146, 138, 126);
-  color: #f8f8ff;
-}
-.topic1 a:hover{
-  color: #f8f8ff;
-}
-.topic2 a:hover{
-  color: #f8f8ff;
-}
-.topic3 a:hover{
   color: #f8f8ff;
 }
 /*last_projects*/
