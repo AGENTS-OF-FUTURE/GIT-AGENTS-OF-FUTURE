@@ -417,4 +417,13 @@ body{
   background-color:  rgb(146, 138, 126);
   color: #f8f8ff;
 }
+.topic1 a:hover{
+  color: #f8f8ff;
+}
+.topic2 a:hover{
+  color: #f8f8ff;
+}
+.topic3 a:hover{
+  color: #f8f8ff;
+}
 /*last_projects*/
