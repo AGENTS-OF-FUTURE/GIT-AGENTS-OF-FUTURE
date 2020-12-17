@@ -282,7 +282,8 @@ body{
   border-radius: 20px;
 }
 .sub_item:hover{
-  
+  border: 6px solid rgb(131, 126, 126);
+  border-radius: 20px;
 }
 .ImageContainer {
   height: 100%;
@@ -393,17 +394,17 @@ body{
   font-weight: bold; 
 }
 .topic1:hover{
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgb(146, 138, 126);
   color: #f8f8ff;
 }
 .topic2:hover{
-  border-radius: 10px;
+  border-radius: 5px;
   background-color:   rgb(146, 138, 126)  /* rgb(54, 124, 71)*/;
   color: #f8f8ff;
 }
 .topic3:hover{
-  border-radius: 10px;
+  border-radius: 5px;
   background-color:  rgb(146, 138, 126);
   color: #f8f8ff;
 }
