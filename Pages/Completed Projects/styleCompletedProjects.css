@@ -326,6 +326,8 @@ body{
   border-radius: 20px;
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 0;
+  display: block;
 }
 .topics-title {
   color: #000;
