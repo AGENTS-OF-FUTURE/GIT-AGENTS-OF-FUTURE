@@ -328,6 +328,9 @@ body{
   margin-right: 200px;
   margin-bottom: 0;
   display: block;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;
 }
 .topics-title {
   color: #000;
