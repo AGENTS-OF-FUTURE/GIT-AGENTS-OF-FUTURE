@@ -97,13 +97,12 @@ body{
 
 /*        slider          */
 .slider-block {
-  width: 100%;
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .section-title {
   color: #000;
@@ -120,6 +119,8 @@ body{
   margin-top: 2%;
   align-content: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* стили для обёртки, в которой заключены слайды */
