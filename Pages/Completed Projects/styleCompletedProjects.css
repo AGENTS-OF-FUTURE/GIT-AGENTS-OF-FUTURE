@@ -101,8 +101,9 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;
 }
 .section-title {
   color: #000;
@@ -328,6 +329,9 @@ body{
   margin-right: 200px;
   margin-bottom: 0;
   display: block;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;
 }
 .topics-title {
   color: #000;
