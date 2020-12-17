@@ -101,8 +101,9 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;
 }
 .section-title {
   color: #000;
@@ -130,7 +131,7 @@ body{
 /* стили для контейнера слайдов */
 .slider__items {
   display: flex;
-  transition: transform 0.6s ease;
+  transition:  0.6s ease;
 }
 
 /* стили для слайдов */
@@ -220,7 +221,7 @@ body{
 }
 
 .slider__item_2 {
-  background: linear-gradient(to right #f8f8ff 10%, #f8f8ff 90%);
+  background: linear-gradient(45deg, #f8f8ff 10%, #f8f8ff 90%);
 }
 
 
@@ -265,7 +266,7 @@ body{
   justify-content: space-evenly;
 }
 .second-line{
-  height: 46%;
+  height: 44%;
   display: flex;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -327,7 +328,6 @@ body{
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 0;
-  display: block;
   align-items: center;
   align-content: center; 
   justify-content: center;
@@ -414,6 +414,15 @@ body{
 .topic3:hover{
   border-radius: 5px;
   background-color:  rgb(146, 138, 126);
+  color: #f8f8ff;
+}
+.topic1 a:hover{
+  color: #f8f8ff;
+}
+.topic2 a:hover{
+  color: #f8f8ff;
+}
+.topic3 a:hover{
   color: #f8f8ff;
 }
 /*last_projects*/
