@@ -74,7 +74,7 @@ body{
 .MenuOtherIkon a:hover {
   border-radius: 4px;
   background-color: rgb(246, 6, 6);
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 /* AboutPage_Menu */
 
