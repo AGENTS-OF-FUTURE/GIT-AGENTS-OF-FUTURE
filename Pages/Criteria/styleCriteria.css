@@ -112,13 +112,13 @@ body{
   border-radius: 10px;
 }
 .topic1{
-  background: rgb(230, 155, 17);
+  background: #FFE400;
 }
 .topic2{
-  background: rgba(243, 39, 175, 0.363);
+  background: rgba(241,15,0,0.83);
 }
 .topic3{
-  background: rgb(9, 161, 221);
+  background: #0BBAFF;
 }
 .Ikon1 {
   color: #000000;
