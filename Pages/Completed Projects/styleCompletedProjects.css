@@ -24,7 +24,7 @@ body{
 
 /*CriteriaPage_Menu*/
 .CompletedProjectsPage_Menu {
-  background:#f8f8ff;
+  background:rgba(242,242,255,0.87);
   display: flex;
   justify-content: center;
   overflow: hidden;
