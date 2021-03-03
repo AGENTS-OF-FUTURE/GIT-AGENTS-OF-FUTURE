@@ -5,7 +5,7 @@
   display: table;
 }
 body{
-  background-color:#f8f8ff;
+  background-color:rgba(242,242,255,0.87);
   margin: 0;
   color: rgb(255, 255, 255); 
   font-family: 'Roboto Slab', serif;
@@ -23,7 +23,7 @@ body{
 
 /*AboutPage_Menu*/
 .AboutPage_Menu {
-  background:#f8f8ff;
+  background:rgba(242,242,255,0.87);
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -52,7 +52,7 @@ body{
   border-radius: 4px;
 }
 .MenuThisIkonText{
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
   display: block;
   text-decoration: none;
   padding: 0 10px;

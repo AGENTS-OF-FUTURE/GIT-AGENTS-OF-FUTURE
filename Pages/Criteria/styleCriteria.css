@@ -5,7 +5,7 @@
   display: table;
 }
 body{
-  background-color:#f8f8ff;
+  background-color:rgba(242,242,255,0.87);
   margin: 0;
   color: rgb(255, 255, 255); 
   font-family: 'Roboto Slab', serif;
@@ -52,7 +52,7 @@ body{
   border-radius: 4px;
 }
 .MenuThisIkonText{
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
   display: block;
   text-decoration: none;
   padding: 0 10px;
@@ -74,7 +74,7 @@ body{
 .MenuOtherIkon a:hover {
   border-radius: 4px;
   background-color: rgb(246, 6, 6);
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 /*CriteriaPage_Menu*/
 
@@ -156,16 +156,16 @@ body{
 .topic1 a:hover{
   border-radius: 10px;
   background-color: rgb(214, 129, 18);
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 .topic2 a:hover{
   border-radius: 10px;
   background-color:  rgba(90, 14, 65, 0.363)  /* rgb(54, 124, 71)*/;
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 .topic3 a:hover{
   border-radius: 10px;
   background-color: rgb(12, 118, 160);
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 /*Criteria_header*/

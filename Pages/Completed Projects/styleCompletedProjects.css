@@ -6,7 +6,7 @@
   justify-content: center;
 }
 body{
-  background-color:#f8f8ff;
+  background-color:rgba(242,242,255,0.87);
   margin: 0;
   color: rgb(255, 255, 255); 
   font-family: 'Roboto Slab', serif;
@@ -53,7 +53,7 @@ body{
   border-radius: 4px;
 }
 .MenuThisIkonText{
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
   display: block;
   text-decoration: none;
   padding: 0 10px;
@@ -75,7 +75,7 @@ body{
 .MenuOtherIkon a:hover {
   border-radius: 4px;
   background-color: rgb(246, 6, 6);
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 /*CriteriaPage_Menu*/
 
@@ -147,7 +147,7 @@ body{
   align-items: center;
   justify-content: center;
   width: 40px;
-  color: #fff;
+  color: rgba(242,242,255,0.87);
   text-align: center;
   opacity: 0.5;
   height: 50px;
@@ -161,7 +161,7 @@ body{
 
 .slider__control:hover,
 .slider__control:focus {
-  color: #fff;
+  color: rgba(242,242,255,0.87);
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -212,7 +212,7 @@ body{
 
 
 .slider__indicators li.active {
-  background-color: #fff;
+  background-color: rgba(242,242,255,0.87);
 }
 
 .slider__item_1 {
@@ -237,7 +237,7 @@ body{
   top: 36px;
   bottom: 36px;
   overflow: hidden;
-  color:  #f8f8ff;
+  color:  rgba(242,242,255,0.87);
   text-align: center;
   display: flex;
   align-items: center;
@@ -270,7 +270,7 @@ body{
   justify-content: space-evenly;
 }
 .sub_item{
-  background-color: #fff;
+  background-color: rgba(242,242,255,0.87);
   height: 100%; 
   width: 40.5%;
   text-align: center;
@@ -351,17 +351,17 @@ body{
   border-radius: 5px;
 }
 .topic1{
-  background: #f8f8ff;
+  background: rgba(242,242,255,0.87);
   border: 3px solid rgb(131, 126, 126);
   transition: .4s linear;
 }
 .topic2{
-  background: #f8f8ff;
+  background: rgba(242,242,255,0.87);
   border: 3px solid rgb(131, 126, 126);
   transition: .4s linear;
 }
 .topic3{
-  background: #f8f8ff;
+  background: rgba(242,242,255,0.87);
   border: 3px solid rgb(131, 126, 126);
   transition: .4s linear;
 }
@@ -403,21 +403,21 @@ body{
 .topic2:hover{
   border-radius: 5px;
   background-color:   rgb(146, 138, 126)  /* rgb(54, 124, 71)*/;
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 .topic3:hover{
   border-radius: 5px;
   background-color:  rgb(146, 138, 126);
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 .topic1 a:hover{
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 .topic2 a:hover{
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 .topic3 a:hover{
-  color: #f8f8ff;
+  color: rgba(242,242,255,0.87);
 }
 
 /*last_projects*/
