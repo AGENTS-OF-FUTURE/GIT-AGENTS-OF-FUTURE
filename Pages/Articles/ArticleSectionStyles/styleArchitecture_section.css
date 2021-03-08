@@ -78,19 +78,29 @@ body{
 }
 /*architecture_section_Menu*/
 
-
-/*phisics_sectionPage_header*/
+/* architecture_sectionPage_header */
 .architecture_sectionPage_header {
   height:80px;
   text-align:center;
-  font-size:24px;
+  font-size:50px;
   padding-top:0px;
 }
-.architecture_sectionPage_header h3{
+/* architecture_sectionPage_header */
+
+
+/*architecture_sectionList*/
+.architecture_sectionList {
+  height:80px;
+  text-align:center;
+  font-size:100px;
+  padding-top:0px;
+}
+.listHeader{
   font-weight: bold;
-  font-size: 52px ;
+  font-size: 25px ;
   color: rgb(2, 0, 0);
 }
+
 .topics{
   overflow: hidden;
   height:470px;
@@ -98,7 +108,7 @@ body{
   max-width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  text-align-last: centre;
+  text-align-last: center;
 }
 .topics ul {
   list-style: none;  
@@ -110,16 +120,10 @@ body{
   margin-bottom: 10px;
   border-radius: 10px;
 }
-.topic1{
+.topic{
   background: #FFE400;
 }
-.topic2{
-  background: rgba(241,15,0,0.83);
-}
-.topic3{
-  background: #0BBAFF;
-}
-.Ikon1 {
+.Ikon {
   color: #000000;
   text-decoration: none;
   text-align: center;
@@ -130,42 +134,10 @@ body{
   font-size: 30px;
   font-weight: bold;
 }
-.Ikon2 {
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  line-height: 90px;
-  transition: .2s linear;
-  font-size: 30px;
-  font-weight: bold;
-}
-.Ikon3 {
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  line-height: 90px;
-  transition: .2s linear;
-  font-size: 30px;
-  font-weight: bold; 
-}
-.topic1 a:hover{
+.topic a:hover{
   border-radius: 10px;
   background-color: rgb(214, 129, 18);
   color: rgba(242,242,255,0.87);
 }
-.topic2 a:hover{
-  border-radius: 10px;
-  background-color:  rgba(90, 14, 65, 0.363)  /* rgb(54, 124, 71)*/;
-  color: rgba(242,242,255,0.87);
-}
-.topic3 a:hover{
-  border-radius: 10px;
-  background-color: rgb(12, 118, 160);
-  color: rgba(242,242,255,0.87);
-}
 
-/*architecture_sectionPage_header*/
+/*architecture_sectionPageList*/
