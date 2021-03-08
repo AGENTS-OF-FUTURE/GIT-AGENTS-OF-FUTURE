@@ -159,7 +159,7 @@ body{
 }
 .topic2 a:hover{
   border-radius: 10px;
-  background-color:  rgba(90, 14, 65, 0.363)  /* rgb(54, 124, 71)*/;
+  background-color:  #BA0F18;
   color: rgba(242,242,255,0.87);
 }
 .topic3 a:hover{
