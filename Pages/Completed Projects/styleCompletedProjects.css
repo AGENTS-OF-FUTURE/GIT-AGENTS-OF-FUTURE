@@ -21,7 +21,7 @@ body{
 }
 /*Main settings for this page*/
 
-/*CriteriaPage_Menu*/
+/*ComletedProjectsPage_Menu*/
 .CompletedProjectsPage_Menu {
   background-color:rgba(255,255,255,0.45);
   display: flex;
@@ -76,7 +76,7 @@ body{
   background-color: rgb(246, 6, 6);
   color: #f8f8ff;
 }
-/*CriteriaPage_Menu*/
+/*ComletedProjectsPage_Menu*/
 
 
 /*ComletedProjectsPage_header*/

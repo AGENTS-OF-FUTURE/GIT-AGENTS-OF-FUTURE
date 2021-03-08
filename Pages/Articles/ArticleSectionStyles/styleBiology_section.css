@@ -1,0 +1,94 @@
+/*Main settings for this page*/
+.container{
+  max-width: 60%;
+  margin: auto;
+  display: table;
+  justify-content: center;
+}
+body{
+  background-image: url(Fon.jpeg);
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+*,*::after,*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Main settings for this page*/
+
+/*biology_section_Menu*/
+.biology_sectionPage_Menu {
+  background-color:rgba(255,255,255,0.45);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  height: 60px;
+  margin: 10px 0;
+  width: 1200px;
+  border: 3px solid rgb(85, 80, 80);
+  border-right: 3px solid rgb(85, 80, 80);
+}
+.biology_sectionPage_Menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  float: left;
+  height: 40px;
+}
+.biology_sectionPage_Menu ul li {
+  float: left;
+  margin: 0 10px;
+  height: 40px;
+}
+.MenuThisIkon{
+  background: rgb(246, 6, 6); 
+  border-radius: 4px;
+}
+.MenuThisIkonText{
+  color:  #f8f8ff;
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 40px;
+  transition: .2s linear;
+  text-transform: uppercase;
+  font-weight: bold;  
+}
+.MenuOtherIkonText{
+  color: rgb(2, 0, 0);
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 40px;
+  transition: .2s linear;
+  text-transform: uppercase;
+  font-weight: bold;  
+}
+.MenuOtherIkon a:hover {
+  border-radius: 4px;
+  background-color: rgb(246, 6, 6);
+  color: #f8f8ff;
+}
+/*biology_section_Menu*/
+
+
+/*biology_sectionPage_header*/
+.biology_sectionPage_header {
+  height:80px;
+  text-align:center;
+  font-size:24px;
+  padding-top:0px;
+}
+.biology_sectionPage_header h3{
+  font-weight: bold;
+  font-size: 52px ;
+  color: rgb(2, 0, 0);
+}
+/*biology_sectionPage_header*/
