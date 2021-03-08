@@ -5,7 +5,7 @@
   display: table;
 }
 body{
-  background-image: url(Fon3.jpeg);
+  background-image: url(Fon.jpeg);
   margin: 0;
   font-family: 'Roboto Slab', serif;
 }
@@ -22,7 +22,7 @@ body{
 
 /*MainPage_Menu*/
 .MainPage_Menu {
-  background-image: url(Fon3.jpeg);
+  background-color:rgba(242,242,255,0.87);
   display: flex;
   justify-content: center;
   overflow: hidden;
