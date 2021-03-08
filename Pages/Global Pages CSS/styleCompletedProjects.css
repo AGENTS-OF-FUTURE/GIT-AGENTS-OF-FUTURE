@@ -307,6 +307,10 @@ body{
 
 /*last_projects*/
 .last_projects {
+  max-width: 60%;
+  margin: auto;
+  display: table;
+  justify-content: center;
   text-align:center;
   font-size:30px;
   color: #000;
