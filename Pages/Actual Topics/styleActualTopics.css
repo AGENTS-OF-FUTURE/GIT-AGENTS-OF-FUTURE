@@ -25,7 +25,7 @@ body{
 /*ActualTopicsPage_Menu*/
 .ActualTopicsPage_Menu {
   color: rgb(2, 0, 0);
-  background:rgba(242,242,255,0.87);
+  background-color:rgba(255,255,255,0.45);
   display: flex;
   justify-content: center;
   overflow: hidden;
