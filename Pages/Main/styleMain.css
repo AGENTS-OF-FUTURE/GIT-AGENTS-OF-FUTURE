@@ -5,9 +5,8 @@
   display: table;
 }
 body{
-  background-color:rgba(242,242,255,0.87);
+  background-image: url(Fon3.jpeg);
   margin: 0;
-  color: rgb(242,242,255,0.87); 
   font-family: 'Roboto Slab', serif;
 }
 *,*::after,*::before {
@@ -23,7 +22,7 @@ body{
 
 /*MainPage_Menu*/
 .MainPage_Menu {
-  background:rgba(242,242,255,0.87);
+  background-image: url(Fon3.jpeg);
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -115,7 +114,7 @@ body{
   background: #FFE400;
 }
 .topic2{
-  background: rgba(241,15,0,0.83);
+  background: rgb(241,15,0);
 }
 .topic3{
   background: #0BBAFF;
