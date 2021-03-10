@@ -377,6 +377,7 @@ body{
   line-height: 90px;
   font-size: 30px;
   font-weight: bold;
+  transition: .4s linear;
 }
 .Ikon2 {
   color: #000000;
@@ -387,6 +388,7 @@ body{
   line-height: 90px;
   font-size: 30px;
   font-weight: bold;
+  transition: .4s linear;
 }
 .Ikon3 {
   color: #000000;
@@ -397,6 +399,7 @@ body{
   line-height: 90px;
   font-size: 30px;
   font-weight: bold; 
+  transition: .4s linear;
 }
 .topic1 a:hover{
   border-radius: 3px;
