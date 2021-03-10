@@ -140,5 +140,21 @@ body{
   background-color: rgb(214, 129, 18);
   color: rgba(242,242,255,0.87);
 }
-
+.SorryMessage{
+  text-align:center;
+  font-size:40px;
+  font-weight: bold;
+  padding-top:10px;
+  color: rgb(2, 0, 0);
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.SorryText{
+  text-align:center;
+  font-size:24px;
+  padding-top:10px;
+  color: rgb(2, 0, 0);
+  margin-right: 5%;
+  margin-left: 5%;
+}
 /*chemistry_sectionPageList*/
