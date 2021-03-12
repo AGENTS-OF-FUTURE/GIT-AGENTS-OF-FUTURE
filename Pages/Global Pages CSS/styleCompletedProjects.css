@@ -23,7 +23,7 @@ body{
 
 /*CompletedProjectsPage_Menu*/
 .CompletedProjectsPage_Menu {
-  background-color:gba(255,216,174,0.6);
+  background-color:rgba(255,216,174,0.6);
   display: flex;
   justify-content: center;
   overflow: hidden;
