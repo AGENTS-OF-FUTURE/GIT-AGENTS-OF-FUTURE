@@ -111,7 +111,6 @@ body{
 
 /* Contact */
 .slide-to-contact{
- font-size: 24px;
  text-align: center; 
  color: rgb(2, 0, 0);
  margin-bottom: 60px;
@@ -122,12 +121,12 @@ body{
   border: 3px solid rgb(146, 138, 126);
   background-color: rgba(255,216,174,0.6);
   border-radius: 20px;
+  margin:0; padding:0;
+  list-style-type:none;
   padding-left:20px;
   padding-right: 20px;
   padding-bottom: 5px;
   padding-top: 0px;
-  margin:0; padding:0;
-  list-style-type:none;
 }
 
 .buttons-to-contact{
