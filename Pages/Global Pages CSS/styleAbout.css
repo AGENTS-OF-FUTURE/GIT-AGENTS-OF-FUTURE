@@ -129,9 +129,13 @@ body{
   padding-top: 0px;
 }
 
+.slide-to-contact :hover {
+  text-decoration: underline;
+}
+
 .buttons-to-contact{
-  margin-top:25px
-  
+  margin-top:25px;
+
 }
 
 .buttons-to-contact ul li{
