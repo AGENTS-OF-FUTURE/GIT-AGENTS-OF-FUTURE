@@ -3,7 +3,7 @@
         "short_name": "AGF",
         "description": "Application OK",
         "lang": "ru-Ru",
-        "start_url": "/",
+        "start_url": "https://agents-of-future.github.io/GIT-AGENTS-OF-FUTURE",
         "scope": "/",
         "display": "standalone",
         "theme_color": "#000000",

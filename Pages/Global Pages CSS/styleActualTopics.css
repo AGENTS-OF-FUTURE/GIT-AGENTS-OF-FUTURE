@@ -25,7 +25,7 @@ body{
 /*ActualTopicsPage_Menu*/
 .ActualTopicsPage_Menu {
   color: rgb(2, 0, 0);
-  background-color:rgba(255,255,255,0.45);
+  background-color:rgba(255,216,174,0.6);
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -80,12 +80,14 @@ body{
 }
 /*ActualTopicsPage_Menu*/
 
+
 /*ActualProjects_header*/
 .ActualProjects_header {
   height:80px;
   text-align:center;
   font-size:24px;
   padding-top:0px;
+  padding-bottom: 11px;
 }
 .ActualProjects_header h3{
   font-weight: bold;
@@ -93,10 +95,49 @@ body{
   color: rgb(2, 0, 0);
 }
 /*ActualProjects_header*/
+
+
+/*list_container*/
+.list_container{
+  text-align: center;
+  font-size:24px;
+}
+/*list_container*/
+
+
+/*List_of_ActualTopics*/
 .List_of_ActualTopics{
   margin-top:15px;
   font-size: 24px;
   padding-top: 10px;
   color: rgb(2, 0, 0);
+  
 }
 /*List_of_ActualTopics*/
+.topic1{
+  text-align: center; 
+  color: rgb(2, 0, 0);
+  margin-bottom: 60px;
+ }
+ .topic1{
+   font-size: 44px;
+   font-weight: bold;
+   border: 3px solid rgb(146, 138, 126);
+   background-color: rgba(255,216,174,0.6);
+   border-radius: 20px;
+   margin:0; padding:0;
+   list-style-type:none;
+   padding-left:20px;
+   padding-right: 20px;
+   padding-bottom: 5px;
+   padding-top: 0px;
+ }
+ .topic1 p,
+.topic1 [type="checkbox"]{
+    display:none;
+}
+ 
+.topic1 [type="checkbox"]:checked ~ p {
+    display:block;
+}
+/* Contact */

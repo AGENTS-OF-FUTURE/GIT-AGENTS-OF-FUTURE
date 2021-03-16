@@ -21,9 +21,9 @@ body{
 }
 /*Main settings for this page*/
 
-/*CriteriaPage_Menu*/
+/*CompletedProjectsPage_Menu*/
 .CompletedProjectsPage_Menu {
-  background-color:rgba(255,255,255,0.45);
+  background-color:rgba(255,216,174,0.6);
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -76,7 +76,7 @@ body{
   background-color: rgb(246, 6, 6);
   color: #f8f8ff;
 }
-/*CriteriaPage_Menu*/
+/*CompletedProjectsPage_Menu*/
 
 
 /*ComletedProjectsPage_header*/
@@ -315,7 +315,7 @@ body{
   font-size:30px;
   padding-top:0px;
   color: #000;
-  padding-bottom: 80px;
+  margin-bottom: 60px;
   font-weight: bold;
 }
 .text_last_pr {
@@ -332,6 +332,7 @@ body{
   border-radius: 20px;
   margin-left: 200px;
   margin-right: 200px;
+  
 }
 
 .topics{
