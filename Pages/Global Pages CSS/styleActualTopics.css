@@ -117,7 +117,7 @@ body{
 .topic1{
   text-align: center; 
   color: rgb(2, 0, 0);
-  margin-bottom: 60px;
+  margin-bottom: 40px;
  }
  
  .topic1 :hover {
@@ -125,17 +125,17 @@ body{
  }
 
  .topic1{
-   font-size: 44px;
-   font-weight: bold;
+   font-size: 24px;
    border: 3px solid rgb(146, 138, 126);
    background-color: rgba(255,216,174,0.6);
    border-radius: 20px;
-   margin:0; padding:0;
+   margin:auto;
    list-style-type:none;
-   padding-left:20px;
-   padding-right: 20px;
+   padding-left:5px;
+   padding-right: 5px;
    padding-bottom: 5px;
-   padding-top: 0px;
+   padding-top: 5px;
+   width: 65%;
  }
  .topic1 p,
 .topic1 [type="checkbox"]{
@@ -145,4 +145,35 @@ body{
 .topic1 [type="checkbox"]:checked ~ p {
     display:block;
 }
-/* Contact */
+.topic2{
+  text-align: center; 
+  color: rgb(2, 0, 0);
+  margin-bottom: 40px;
+ }
+ 
+ .topic2 :hover {
+   text-decoration: underline;
+ }
+
+ .topic2 {
+   font-size: 24px;
+   border: 3px solid rgb(146, 138, 126);
+   background-color: rgba(255,216,174,0.6);
+   border-radius: 20px;
+   margin:auto;
+   list-style-type:none;
+   padding-left:5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 65%;
+   margin-top: 1%;
+ }
+ .topic2 p,
+.topic2 [type="checkbox"]{
+    display:none;
+}
+ 
+.topic2 [type="checkbox"]:checked ~ p {
+    display:block;
+}
