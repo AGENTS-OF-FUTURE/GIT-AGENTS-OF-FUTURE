@@ -126,11 +126,66 @@ width: 55%;
   margin-bottom: 60px;
 }
 
+
+
+/* photoWithDescriptionBlock */
+
+
+/* hyperLinkBlock */
+
 .hyperLinkBlock {
+  text-align: center;
+  border:3px solid rgb(131,126,126);
+  background-color: rgba(255,216,174,0.6);
+  border-radius:20px;
+}
+
+.hyperLinkBlock ul{
+  list-style-position: inside;
+}
+
+.linkText a{
+  text-decoration: none;
+}
+
+.linkText {
+  color: rgb(2, 0, 0);
+  text-decoration: none;
+}
+
+/* hyperLinkBlock */
+
+/* mainTextBlock */
+.mainTextBlock {
+  margin-top: 5%;
+  border:3px solid rgb(131,126,126);
+  background-color: rgba(255,216,174,0.6);
+  border-radius:20px;
+  height: 8000px;
+}
+
+.mainTextContainer {
+  margin-top: 0.3%;
+}
+
+.mainTextContainer h4{
+  text-align: center;
+  font-size:35px;
+  padding-top:5px;
+  color: rgb(2, 0, 0);
+  font-weight: bold;
+}
+
+.mainText {
   text-align: center;
 }
 
-/* photoWithDescriptionBlock */
+.simpleText{
+  font-size: 22px;
+}
+
+/* mainTextBlock */
+
 
 /* !!!!!!!!!!!!!!!!!! Special settings for text !!!!!!!!!!!!!!!!!!*/
 .titleText {
@@ -138,11 +193,15 @@ width: 55%;
   font-size:28px;
   padding-top:5px;
   color: rgb(2, 0, 0);
-  margin-right: 10%;
   font-weight: bold;
-  padding-left:20px;
-  padding-right: 20px;
-  
+}
+
+.bigTitleText {
+  text-align: center;
+  font-size:30px;
+  padding-top:5px;
+  color: rgb(2, 0, 0);
+  font-weight: bold;
 }
 /* !!!!!!!!!!!!!!!!!! Special settings for text !!!!!!!!!!!!!!!!!!*/
 
