@@ -133,7 +133,16 @@ width: 55%;
 
 /* hyperLinkBlock */
 
+.LinkHeader h4{
+  text-align: center;
+  font-size:35px;
+  padding-top:5px;
+  color: rgb(2, 0, 0);
+  font-weight: bold;
+}
+
 .hyperLinkBlock {
+  margin-top: 2%;
   text-align: center;
   border:3px solid rgb(131,126,126);
   background-color: rgba(255,216,174,0.6);
@@ -144,24 +153,26 @@ width: 55%;
   list-style-position: inside;
 }
 
-.linkText a{
+.linkToText a{
   text-decoration: none;
+  color: rgb(2, 0, 0);
+  font-weight: 800;
+  font-size: 20px;
 }
 
-.linkText {
-  color: rgb(2, 0, 0);
-  text-decoration: none;
+.hyperLinkBlock li :hover{
+  text-decoration: underline;
 }
 
 /* hyperLinkBlock */
 
 /* mainTextBlock */
 .mainTextBlock {
-  margin-top: 5%;
+  margin-top: 2%;
   border:3px solid rgb(131,126,126);
   background-color: rgba(255,216,174,0.6);
   border-radius:20px;
-  height: 8000px;
+  height: 800px;
 }
 
 .mainTextContainer {
