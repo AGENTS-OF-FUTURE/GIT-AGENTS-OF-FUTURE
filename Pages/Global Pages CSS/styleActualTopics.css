@@ -274,4 +274,165 @@ body{
 .topic5 [type="checkbox"]:checked ~ p {
     display:block;
 }
+.topic6{
+  text-align: center; 
+  color: rgb(2, 0, 0);
+  margin-bottom: 40px;
+ }
+ 
+ .topic6 :hover {
+   text-decoration: underline;
+ }
+
+ .topic6{
+   font-size: 24px;
+   border: 3px solid rgb(146, 138, 126);
+   background-color: rgba(255,216,174,0.6);
+   border-radius: 20px;
+   margin:auto;
+   list-style-type:none;
+   padding-left:5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 65%;
+   margin-top: 1%;
+ }
+ .topic6 p,
+.topic6 [type="checkbox"]{
+    display:none;
+}
+ 
+.topic6 [type="checkbox"]:checked ~ p {
+    display:block;
+}
+.topic7{
+  text-align: center; 
+  color: rgb(2, 0, 0);
+  margin-bottom: 40px;
+ }
+ 
+ .topic7 :hover {
+   text-decoration: underline;
+ }
+
+ .topic7 {
+   font-size: 24px;
+   border: 3px solid rgb(146, 138, 126);
+   background-color: rgba(255,216,174,0.6);
+   border-radius: 20px;
+   margin:auto;
+   list-style-type:none;
+   padding-left:5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 65%;
+   margin-top: 1%;
+ }
+ .topic7 p,
+.topic7 [type="checkbox"]{
+    display:none;
+}
+ 
+.topic7 [type="checkbox"]:checked ~ p {
+    display:block;
+}
+.topic8{
+  text-align: center; 
+  color: rgb(2, 0, 0);
+  margin-bottom: 40px;
+ }
+ 
+ .topic8 :hover {
+   text-decoration: underline;
+ }
+
+ .topic8 {
+   font-size: 24px;
+   border: 3px solid rgb(146, 138, 126);
+   background-color: rgba(255,216,174,0.6);
+   border-radius: 20px;
+   margin:auto;
+   list-style-type:none;
+   padding-left:5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 65%;
+   margin-top: 1%;
+ }
+ .topic8 p,
+.topic8 [type="checkbox"]{
+    display:none;
+}
+ 
+.topic8 [type="checkbox"]:checked ~ p {
+    display:block;
+}
+.topic9{
+  text-align: center; 
+  color: rgb(2, 0, 0);
+  margin-bottom: 40px;
+ }
+ 
+ .topic9 :hover {
+   text-decoration: underline;
+ }
+
+ .topic9 {
+   font-size: 24px;
+   border: 3px solid rgb(146, 138, 126);
+   background-color: rgba(255,216,174,0.6);
+   border-radius: 20px;
+   margin:auto;
+   list-style-type:none;
+   padding-left:5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 65%;
+   margin-top: 1%;
+ }
+ .topic9 p,
+.topic9 [type="checkbox"]{
+    display:none;
+}
+ 
+.topic9 [type="checkbox"]:checked ~ p {
+    display:block;
+}
+.topic10{
+  text-align: center; 
+  color: rgb(2, 0, 0);
+  margin-bottom: 40px;
+ }
+ 
+ .topic10 :hover {
+   text-decoration: underline;
+ }
+
+ .topic10 {
+   font-size: 24px;
+   border: 3px solid rgb(146, 138, 126);
+   background-color: rgba(255,216,174,0.6);
+   border-radius: 20px;
+   margin:auto;
+   list-style-type:none;
+   padding-left:5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 65%;
+   margin-top: 1%;
+   margin-bottom: 5%;
+ }
+ .topic10 p,
+.topic10 [type="checkbox"]{
+    display:none;
+}
+ 
+.topic10 [type="checkbox"]:checked ~ p {
+    display:block;
+}
 /*TOPICS*/
