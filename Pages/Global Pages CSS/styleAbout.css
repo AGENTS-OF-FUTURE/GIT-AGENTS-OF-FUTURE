@@ -23,7 +23,7 @@ body{
 
 /*AboutPage_Menu*/
 .AboutPage_Menu {
-  background-color:rgba(255,216,174,0.6);
+  background-color: rgba(255,216,174,0.6);
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -34,6 +34,8 @@ body{
   width: 1200px;
   border: 3px solid rgb(85, 80, 80);
   border-right: 3px solid rgb(85, 80, 80);
+  border-radius: 7px ;
+  
 }
 .AboutPage_Menu ul {
   list-style: none;
@@ -49,7 +51,7 @@ body{
 }
 .MenuThisIkon{
   background: rgb(246, 6, 6); 
-  border-radius: 4px;
+  border-radius: 7px;
 }
 .MenuThisIkonText{
   color:  #f8f8ff;
@@ -70,13 +72,13 @@ body{
   transition: .2s linear;
   text-transform: uppercase;
   font-weight: bold;  
+  border-radius: 7px;
 }
 .MenuOtherIkon a:hover {
-  border-radius: 4px;
+  border-radius: 7px;
   background-color: rgb(246, 6, 6);
   color: #f8f8ff;
 }
-/* AboutPage_Menu */
 
 /* AboutHeader */
 .AboutHeader{
@@ -84,18 +86,35 @@ body{
   text-align:center;
   font-size:24px;
   padding-top:0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 3px solid rgb(85, 80, 80);
+  border-bottom: none;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  background-color: rgba(255,216,174,0.6);
 }
 .AboutHeader h3{
   font-weight: bold;
   font-size: 52px;
   color: rgb(2, 0, 0);
+  
 }
 /* AboutHeader */
 
+/* AboutPage_Menu */
+.AboutPage{
+  border: 3px solid rgb(85, 80, 80);
+  background-color: rgba(255,216,174,0.4);
+  border-radius: 20px ;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
 /* AboutText */
 .AboutText{
-  border:3px solid rgb(131,126,126);
-  background-color: rgba(255,216,174,0.6);
+  border:3px solid rgb(85, 80, 80);
   border-radius:20px;
   font-size:24px;
   padding-top:10px;
@@ -105,7 +124,8 @@ body{
   padding: 10px;
   padding-left:20px;
   padding-right: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  background-color: rgba(255,216,174,0.45);
 }
 /* AboutText */
 
@@ -118,8 +138,7 @@ body{
 .Contact{
   font-size: 44px;
   font-weight: bold;
-  border: 3px solid rgb(146, 138, 126);
-  background-color: rgba(255,216,174,0.6);
+  border: 3px solid rgb(85, 80, 80);
   border-radius: 20px;
   margin:0; padding:0;
   list-style-type:none;
@@ -127,6 +146,7 @@ body{
   padding-right: 20px;
   padding-bottom: 5px;
   padding-top: 0px;
+  background-color: rgba(255,216,174,0.45);
 }
 
 .slide-to-contact :hover {
@@ -140,7 +160,7 @@ body{
 
 .buttons-to-contact ul li{
   font-size: 32px;
-  border: 3px solid rgb(131,126,126);
+  border: 3px solid rgb(85, 80, 80);
   border-radius: 20px;
   display:inline;
   padding-left: 10px;
