@@ -1,4 +1,18 @@
 <?php
+    $mysqli = new mysqli('localhost', 'root', '', 'actual');
+
+    if (mysqli_connect_errno()) {
+        prinf("Соединение не установлено,", mysqli_connect_errno());
+        exit();
+    }
+
+    $mysqli -> set_charset('utf8');
+
+
+    $query = $mysqli -> query('SELECT * FROM topics');
+
+    $row = mysqli_fetch_assoc($query);
+
 
 ?>
 
@@ -76,74 +90,75 @@
             <ul>
                 <li>
                     <div class="topic1">
-                        <label for="topic1">С помощью нейросетей побороть цифоровое мошенничество.</label>
+                        <label for="topic1"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic1"/>
-                        <p>fihnigb4bgi</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic2">
-                        <label for="topic2">Создание технологии, помогающей восстанавливать функции мозга.</label>
+                        <label for="topic2"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic2"/>
-                        <p>vnwnvoinininittniwntingbinginigniini</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic3">
-                        <label for="topic3">Научить нейросети распознавать опухоли.</label>
+                        <label for="topic3"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic3"/>
-                        <p>uvhuqebucvbwuibvbuwbvuibwu</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic4">
-                        <label for="topic4">Создание полноценного портала для школьников и студентов.</label>
+                        <label for="topic4"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic4"/>
-                        <p>ogfuagbubvuebfvubueb;iuvbiu;EBIUV</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic5">
-                        <label for="topic5">Создание платформы, которая в итоге решила бы проблемы профориентации для школьников.</label>
+                        <label for="topic5"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic5"/>
-                        <p>gdx8wgbdvwiyviyvcyiwviycviwyvciwvyiwvcvuwvciyuvwiucv</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic6">
-                        <label for="topic6">Создание приложения, которое поможет генерировать дизайн интерьера помещений.</label>
+                        <label for="topic6"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic6"/>
-                        <p>rwifhiprhvifiwehririrhvihrivihirviv</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic7">
-                        <label for="topic7">Создание Smart-устройства для дома.</label>
+                        <label for="topic7"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic7"/>
-                        <p>rwivjp9rvnpirnprvvrhvphpvhvrhprhvvhvpirhivhviphrvhvivr</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic8">
-                        <label for="topic8">Создание стартапа, ориентированного на сокращение пищевых отходов в вашем регионе.</label>
+                        <label for="topic8"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic8"/>
-                        <p>rwivjp9rvnpirnprvvrhvphpvhvrhprhvvhvpirhivhviphrvhvivr</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic9">
-                        <label for="topic9">Проект анонимной психологической помощи для подростков и взрослых — аналог телефона доверия.</label>
+                        <label for="topic9"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic9"/>
-                        <p>rwivjp9rvnpirnprvvrhvphpvhvrhprhvvhvpirhivhviphrvhvivr</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
                 <li>
                     <div class="topic10">
-                        <label for="topic10">Создание приложения с дополненной реальностью для экскурсий по городу.</label>
+                        <label for="topic10"><?= $row['topicName']?></label>
                         <input type="checkbox" id="topic10"/>
-                        <p>rwivjp9rvnpirnprvvrhvphpvhvrhprhvvhvpirhivhviphrvhvivr</p>
+                        <p><?= $row['description']; $row = mysqli_fetch_assoc($query);?></p>
                     </div>
                 </li>
+
             </ul>
         </div>
         <!-- /.List_of_ActualTopics -->
@@ -152,3 +167,7 @@
 </main>
 </body>
 </html>
+
+<?php
+    $mysqli ->close();
+?>
