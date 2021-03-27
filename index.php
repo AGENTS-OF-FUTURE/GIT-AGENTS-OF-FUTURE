@@ -2,7 +2,7 @@
     $mysqli = new mysqli('localhost', 'root', '', 'actual');
 
     if (mysqli_connect_errno()) {
-        prinf("Соединение не установлено,", mysqli_connect_errno());
+        printf("Соединение не установлено,", mysqli_connect_errno());
         exit();
     }
 
@@ -12,8 +12,6 @@
     $query = $mysqli -> query('SELECT * FROM topics');
 
     $row = mysqli_fetch_assoc($query);
-
-
 ?>
 
 <!DOCTYPE html>
