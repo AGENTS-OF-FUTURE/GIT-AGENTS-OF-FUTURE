@@ -79,25 +79,51 @@ body{
 
 
 /*MainPage_header*/
-.MainPage_header {
-  width:100%;
+.MainHeader{
   height:80px;
   text-align:center;
   font-size:24px;
   padding-top:0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 3px solid rgb(85, 80, 80);
+  border-bottom: none;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  background-color: rgba(255,216,174,0.6);
 }
-.MainPage_header h3{
+.MainHeader h3{
   font-weight: bold;
-  font-size: 52px ;
+  font-size: 52px;
   color: rgb(2, 0, 0);
+  
+}
+
+.MainPage{
+  border: 3px solid rgb(85, 80, 80);
+  background-color: rgba(255,216,174,0.4);
+  border-radius: 20px ;
+  margin-bottom: 20px;
+  padding-top: 30px;
 }
 .topics{
-  overflow: hidden;
-  margin: 30px 0;
-  max-width: 80%;
-  margin-left: 10%;
+  border:3px solid rgb(85, 80, 80);
+  border-radius:20px;
+  font-size:24px;
+  padding-top:10px;
+  color: rgb(2, 0, 0);
   margin-right: 10%;
-  text-align-last: right;
+  margin-left: 10%;
+  padding: 10px;
+  padding-left:20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+  background-color: rgba(255,216,174,0.45);
+  overflow: hidden;
+  max-width: 80%;
+  text-align-last: center;
 }
 .topics ul {
   list-style: none;  
