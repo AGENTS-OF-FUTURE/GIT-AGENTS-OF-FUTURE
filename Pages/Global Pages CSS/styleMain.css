@@ -182,14 +182,17 @@ body{
 .topic1 a:hover{
   background-color: rgb(214, 129, 18);
   color: rgba(242,242,255,0.87);
+  border-radius: 5.6px;
 }
 .topic2 a:hover{
   background-color:  #BA0F18;
   color: rgba(242,242,255,0.87);
+  border-radius: 5.6px;
 }
 .topic3 a:hover{
   background-color: rgb(12, 118, 160);
   color: rgba(242,242,255,0.87);
+  border-radius: 5.6px;
 }
 /*MainPage_header*/
 
