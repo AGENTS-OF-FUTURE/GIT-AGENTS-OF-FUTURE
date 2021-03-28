@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli('localhost', 'root', '', 'actual');
+    $mysqli = new mysqli('localhost', 'u1337103_default', 'mDbw!ZI1', 'u1337103_default');
 
     if (mysqli_connect_errno()) {
         printf("Соединение не установлено,", mysqli_connect_errno());
