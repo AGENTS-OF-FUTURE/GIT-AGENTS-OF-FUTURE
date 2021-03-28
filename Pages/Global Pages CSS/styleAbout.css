@@ -87,7 +87,6 @@ body{
   font-size:24px;
   padding-top:0px;
   margin-top: 20px;
-  margin-bottom: 0px;
   margin-left: 500px;
   margin-right: 500px;
   border: 3px solid rgb(85, 80, 80);
@@ -109,8 +108,7 @@ body{
   border: 3px solid rgb(85, 80, 80);
   background-color: rgba(255,216,174,0.4);
   border-radius: 20px ;
-  margin-bottom: 20px;
-  padding-top: 30px;
+  margin-bottom: 40px;
 }
 /* AboutText */
 .AboutText{
@@ -119,6 +117,7 @@ body{
   font-size:24px;
   padding-top:10px;
   color: rgb(2, 0, 0);
+  margin-top: 40px;
   margin-right: 10%;
   margin-left: 10%;
   padding: 10px;
@@ -133,7 +132,7 @@ body{
 .slide-to-contact{
  text-align: center; 
  color: rgb(2, 0, 0);
- margin-bottom: 60px;
+ margin-bottom: 45px;
 }
 .Contact{
   font-size: 44px;
