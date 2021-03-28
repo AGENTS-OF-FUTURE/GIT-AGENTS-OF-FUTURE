@@ -119,7 +119,6 @@ body{
   margin-top: 40px;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 18px;
   max-width: 80%;
   text-align-last: center;
   justify-content: center;
@@ -133,23 +132,20 @@ body{
 }
 .slider{
   overflow: auto;
-  border:3px solid rgb(85, 80, 80);
-  border-radius:20px;
-  border-bottom:none;
-  border-right: none;
-  border-left: none;
+  
 }
 .section-title {
+  margin-top: 17px;
   color: #000;
   font-weight: bold;
-  font-size: 30px ;
+  font-size: 37px ;
 }
 
 /* стили основного контейнера слайдера */
 .slider {
   position: relative;
   overflow: hidden;
-  width:955px;
+  width:950px;
   align-content: center;
   text-align: center;
 }
@@ -341,52 +337,41 @@ body{
 
 /*last_projects*/
 .last_projects {
-  max-width: 60%;
-  margin: auto;
-  display: table;
-  justify-content: center;
-  text-align:center;
-  font-size:30px;
-  padding-top:0px;
-  color: #000;
-  margin-bottom: 60px;
-  font-weight: bold;
+  border:3px solid rgb(85, 80, 80);
+  background-color: rgba(255,216,174,0.45);
+  border-radius:20px;
+  font-size:24px;
+  color: rgb(2, 0, 0);
+  margin-bottom: 45px;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 80%;
+  text-align-last: center;
 }
 .text_last_pr {
-  padding-bottom: 10px;
-}
-.last_projects_container {
-  background-color: rgba(146, 138, 126, 0.6);
-  width:800px;
-  height:372px;
-  text-align:center;
-  font-size:24px;
-  padding-top:0px;
-  border: 3px solid rgb(131, 126, 126);
-  border-radius: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
-  
+  font-size: 37px;
+  margin-top:20px;
+  margin-bottom:  12px;
 }
 
-.topics{
+.topics{ 
+  text-align:center;
+  font-size:24px;
   overflow: hidden;
-  height:308px;
-  margin: 30px 0;
   max-width: 100%;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 20px;
   text-align-last: center;
 }
 .topics ul {
   list-style: none;  
 }
 .topics ul li {
-  padding-top: 0px;
-  padding-bottom: 0px;
   width: 100%;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  margin-bottom: 12px;
+  border-radius: 10px;
 }
 .topic1{
   background: #f5dc0c;
