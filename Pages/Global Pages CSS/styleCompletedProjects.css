@@ -350,6 +350,7 @@ body{
   text-align-last: center;
 }
 .text_last_pr {
+  text-align:center;
   font-size: 37px;
   margin-top:20px;
   margin-bottom:  12px;
