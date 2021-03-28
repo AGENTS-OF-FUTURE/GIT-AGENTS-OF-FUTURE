@@ -436,4 +436,9 @@ body{
 .topic10 [type="checkbox"]:checked ~ p {
     display:block;
 }
+.topics {
+  font-size:17px;
+  font-style: oblique;
+  margin-top:5px;
+}
 /*TOPICS*/
