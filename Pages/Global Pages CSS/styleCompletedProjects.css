@@ -81,13 +81,13 @@ body{
 
 
 /*ComletedProjectsPage_header*/
-.ComletedProjectsPage_header {
+.ComletedProjectsHeader {
   height:80px;
   text-align:center;
   font-size:24px;
   padding-top:0px;
 }
-.ComletedProjectsPage_header h3{
+.ComletedProjectsHeader h3{
   font-weight: bold;
   font-size: 52px ;
   color: rgb(2, 0, 0);
